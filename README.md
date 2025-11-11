@@ -7,6 +7,10 @@ Em vez disso, aprende a guiar a IA descrevendo suas ideias de forma clara, com i
 
 > Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
 
+## Demonstração
+
+https://github.com/user-attachments/assets/887f9c77-facc-452d-a1cc-8209e0f825ef
+
 ## Contexto
 
 O aplicativo tem como objetivo simplificar a organização das finanças pessoais por meio de interações em linguagem natural.
