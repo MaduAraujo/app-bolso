@@ -1,58 +1,57 @@
-# Welcome to your Lovable project
+# App de Organização de Finanças Pessoais com Vibe Coding
 
-## Project info
+## O que é Vibe Coding? 
 
-**URL**: https://lovable.dev/projects/ba569dcd-fdad-47b8-867f-9c1e513fd2b3
+Vibe Coding é uma forma leve e criativa de desenvolver com IA, baseada em conversas naturais e bem estruturadas. Você não precisa escrever código linha por linha. 
+Em vez disso, aprende a guiar a IA descrevendo suas ideias de forma clara, com intenção e contexto. Em outras palavras:
 
-## How can I edit this code?
+> Você mostra a vibe da sua ideia e a IA transforma em solução (ou em um caminho para ela).
 
-There are several ways of editing your application.
+## Contexto
 
-**Use Lovable**
+O aplicativo tem como objetivo simplificar a organização das finanças pessoais por meio de interações em linguagem natural.
+Em vez de formulários complexos ou planilhas, o usuário conversa com o app como se fosse um assistente financeiro, tornando o processo mais intuitivo e acessível.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ba569dcd-fdad-47b8-867f-9c1e513fd2b3) and start prompting.
+## Problema
 
-Changes made via Lovable will be committed automatically to this repo.
+- Usuários desistem de controlar gastos porque os apps atuais exigem muita entrada manual.
+- Falta personalização e recomendações práticas que se adaptem ao perfil de cada pessoa.
+- A experiência atual é burocrática e pouco envolvente.
 
-**Use your preferred IDE**
+## Público-Alvo
+- Pessoas iniciantes no controle financeiro.
+- Usuários que buscam praticidade e simplicidade.
+- Pessoas que preferem interações conversacionais em vez de interfaces tradicionais.
+- Requisito adicional: o aplicativo deve ser projetado com Design Universal, garantindo boa experiência para o maior número possível de usuários, independentemente de idade, nível de letramento digital ou possíveis limitações físicas.
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Funcionalidades-Chave
+1. Registro de gastos via chat: o usuário informa despesas em linguagem natural (ex.: “gastei R$50 no mercado”).
+2. Classificação automática: o sistema identifica categorias (alimentação, transporte, lazer).
+3. Metas financeiras: definir objetivos (ex.: economizar R$200/mês) e acompanhar progresso.
+4. Agente Financeiro: dicas personalizadas de economia e alertas inteligentes.
+5. Relatórios simples: visualizações claras e adaptadas ao perfil do usuário.
+6. Design Universal: interface acessível, com linguagem clara, contraste adequado, navegação intuitiva e suporte a diferentes formas de interação (texto, voz, ícones).
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## Entrega da IA
+- Plano de MVP:
+  - Principais telas:
+    - Tela de login
+    - Tela de chat (interação principal).
+    - Tela de metas (definição e acompanhamento).
+    - Tela de relatórios (gráficos simples e personalizados).
+  - Recursos necessários:
+    - Processamento de linguagem natural (NLP).
+    - Motor de categorização automática.
+    - Sistema de notificações e recomendações.
+    - Banco de dados para armazenar transações e metas.
+    - Diretrizes de acessibilidade e design universal.
+  - Validação inicial:
+    - Testes com usuários iniciantes.
+    - Testes com diversidade de perfis (incluindo pessoas com diferentes níveis de habilidade digital).
+    - Coleta de feedback sobre clareza das interações.
+    - Ajustes rápidos com base em uso real.
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
+## Tecnologias Utilizadas
 
 - Vite
 - TypeScript
@@ -60,14 +59,20 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
+## Executando Localmente
 
-Simply open [Lovable](https://lovable.dev/projects/ba569dcd-fdad-47b8-867f-9c1e513fd2b3) and click on Share -> Publish.
+### Pré-requisitos
 
-## Can I connect a custom domain to my Lovable project?
+* **Node.js**
+* **npm**
 
-Yes, you can!
+## Passo a Passo
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+Siga estas etapas para configurar e iniciar o projeto em sua máquina local:
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+| Passo | Comando | Descrição |
+| :---: | :---: | :--- |
+| **1** | `git clone https://github.com/MaduAraujo/app-bolso.git` | Clone o repositório utilizando a URL Git do projeto. |
+| **2** | `cd app-bolso` | Navegue até o diretório do projeto clonado. |
+| **3** | `npm i` | Instale todas as dependências necessárias do projeto. |
+| **4** | `npm run dev` | Inicie o servidor de desenvolvimento com recarregamento automático e pré-visualização instantânea. |
